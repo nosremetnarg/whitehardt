@@ -116,7 +116,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .blueBanner {
     background-color: #0068B0;
     position: relative;
-    top: 595px;
+    top: 695px;
     height: 80px;
     display:flex;
     align-items: center;
@@ -130,7 +130,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .personalInjuryContainer {
     position: relative;
-    top: 620px;
+    top: 695px;
     height: 300px;
     color: black;
 }
