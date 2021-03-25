@@ -71,7 +71,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     bottom: 0;
     left: 0;
     right: 0;
-    
 }
 
 .site-logo {
@@ -213,4 +212,46 @@ p {
    color: white;
    font-family: sans-serif;
    font-weight: 700;
+}
+/* FOOTER */
+footer {
+    position: absolute;
+top: 1900px;
+height: 200px;
+background-color: black;
+display:flex;
+
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.menu-2 {
+    
+    right: auto;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.menu-2 li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-2 li {
+    display: inline-block;
+   
+}
+.menu-2 li + li {
+    margin-left: 10px;
+}
+
+.site-logo2 {
+    width: 25%;
+    padding-bottom: 30px;
 }
