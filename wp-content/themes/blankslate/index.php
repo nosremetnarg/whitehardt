@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 <main id="content">
 <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/GettyImages-526245919.jpg')?>);"></div>
-      <div class="heroContentContainer">
+      <div class="colorOverlay"></div>
+<div class="heroContentContainer">
           <h1 class="heroText">Lorem Ipsum Dolor Sit Amet</h1>
           <button class="btn">Contact us</button>
       </div>
@@ -24,11 +25,15 @@
             </div>
         </div>
     </div>
+    <div class="secondHeroContainer">
     <div class="page-banner__bg-image2" style="background-image: url(<?php echo get_theme_file_uri('images/powerline.jpg')?>);"></div>
-      <div class="heroContentContainer2">
+    <div class="colorOverlay2"></div>  
+    <div class="heroContentContainer2">
+      
           <h1 class="heroText2">Amet Sit Dolor Ipsum Lorem</h1>
           <button class="btn">Contact us</button>
       </div>
+    </div>
     </div>
     
 </div>

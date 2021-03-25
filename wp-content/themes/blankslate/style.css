@@ -93,6 +93,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     top: 40%;
     left: 10%;
 }
+.colorOverlay {
+    width: 100%;
+    height: 87%;
+    background: #000;
+    opacity: .3;
+    position:absolute;
+}
 
 .heroText {
     font-size: 3rem;
@@ -101,6 +108,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
    color: white;
    font-family: sans-serif;
    font-weight: 700;
+   z-index: 1;
 }
 .btn {
     background-color: #0068B0;
@@ -114,13 +122,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .btn:focus {
     outline: none!important;
 }
+.recentcomments {
+    display: none;
+}
 /* section 2 */
 
 .blueBanner {
     background-color: #0068B0;
     position: relative;
-    top: 680px;
-    height: 100px;
+    top: 875px;
+    height: 110px;
     display:flex;
     align-items: center;
     text-align: center;
@@ -135,7 +146,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .personalInjuryContainer {
     position: relative;
-    top: 695px;
+    top: 895px;
     height: 300px;
     color: black;
 }
@@ -192,12 +203,20 @@ p {
     opacity: 1;
     background-size: cover;
     position: absolute;
-    top: 1300px;
+    top: 1600px;
     bottom: -1100px;
     left: 0;
     right: 0;
     background-position: center bottom;
 
+}
+.colorOverlay2 {
+    width: 100%;
+    height: 65%;
+    background: #000;
+    opacity: .3;
+    position:absolute;
+    top:142%;
 }
 .heroContentContainer2 {
     max-width: 350px;
@@ -216,9 +235,10 @@ p {
 /* FOOTER */
 footer {
     position: absolute;
-top: 1900px;
+top: 2200px;
 height: 200px;
 background-color: black;
+width: 100%;
 display:flex;
 
 align-items: center;
@@ -261,7 +281,9 @@ justify-content: center;
 @media screen and (max-width:1500px){
     .slipAndFallAttorneys {
         font-size: .2rem;
+        
     }
+    
     p {
         line-height: 1rem;
     }
@@ -269,7 +291,7 @@ justify-content: center;
         font-size: 0.9rem;
     }
     .blueBanner {
-        top: 670px;
+        top: 870px;
 
     }
 }
@@ -284,7 +306,7 @@ justify-content: center;
         font-size: 0.9rem;
     }
     .blueBanner {
-        top: 680px;
+        top: 880px;
 
     }
 }
@@ -299,8 +321,11 @@ justify-content: center;
         font-size: 0.6rem;
     }
     .blueBanner {
-        top: 690px;
+        top: 890px;
 
+    }
+    .slipAndFallAttorneys {
+        width: 100%;
     }
 }
 @media screen and (max-width:400px){
@@ -317,6 +342,12 @@ justify-content: center;
     }
     .heroText {
         font-size: 2rem;
+        width: 80%;
+    }
+    .colorOverlay {
+       
+        height: 84%;
+        
     }
     .personalInjuryContainer {
         top: 659px;
@@ -355,8 +386,14 @@ justify-content: center;
         top: 173%;
         max-width: 311px;
     }
+    .colorOverlay2 {
+        
+        top:162%;
+        height: 80%;
+    }
+  
     .page-banner__bg-image2{
-        top: 1312px;
+        top: 1315px;
     }
     .heroText2 {
         font-size: 2rem;
@@ -368,6 +405,7 @@ justify-content: center;
         font-size: .7rem;
     }
     footer {
+        top: 1900px;        
         height: 130px;
         padding: 30px 20px 58px 20px!important;
     }
