@@ -46,8 +46,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     z-index:2;
 }
 
-
 /* Menu-1 */
+
 .menu-1 {
     margin: 20px 30px;
     position: absolute;
@@ -73,6 +73,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     right: 0;
     
 }
+
 .site-logo {
     width: 25%;
     padding-left: 60px;
@@ -86,6 +87,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 /* hero content */
+
 .heroContentContainer {
     max-width: 350px;
     position: absolute;
@@ -113,6 +115,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .btn:focus {
     outline: none!important;
 }
+/* section 2 */
+
 .blueBanner {
     background-color: #0068B0;
     position: relative;
@@ -127,6 +131,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     color: white;
     font-family: sans-serif
 }
+
+/* section 3 */
 
 .personalInjuryContainer {
     position: relative;
@@ -152,14 +158,59 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .slipAndFallContainer {
     display: inline-grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
 }
 .grid-item {
     padding: 20px;
 }
 .slipAndFallImage {
-    width: 50%;
+    width: 55%;
 }
-.SlipAndFallAttorneys {
+.slipAndFallAttorneys {
     width: 50%;
+  justify-self: end;
+}
+.slipAndFallTitle {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+p {
+    font-size: .5rem;
+    font-family: sans-serif;
+    line-height: 1rem;
+}
+.injuryBtn {
+    margin-top: 20px;
+}
+
+
+/* section 4  */
+
+.page-banner__bg-image2{
+    opacity: 1;
+    background-size: cover;
+    position: absolute;
+    top: 1300px;
+    bottom: -1100px;
+    left: 0;
+    right: 0;
+    background-position: center bottom;
+    
+}
+.heroContentContainer2 {
+    max-width: 350px;
+    position: absolute;
+    top: 160%;
+    left: 10%;
+}
+.heroText2 {
+    font-size: 3rem;
+   font-style: bold;
+   padding-bottom: 10px;
+   color: white;
+   font-family: sans-serif;
+   font-weight: 700;
 }
