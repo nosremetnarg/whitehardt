@@ -119,8 +119,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .blueBanner {
     background-color: #0068B0;
     position: relative;
-    top: 695px;
-    height: 80px;
+    top: 680px;
+    height: 100px;
     display:flex;
     align-items: center;
     text-align: center;
@@ -254,4 +254,120 @@ justify-content: center;
 .site-logo2 {
     width: 25%;
     padding-bottom: 30px;
+}
+
+
+/* media queries */
+@media screen and (max-width:1500px){
+    .slipAndFallAttorneys {
+        font-size: .2rem;
+    }
+    p {
+        line-height: .5rem;
+    }
+    .menu-1 {
+        font-size: 0.9rem;
+    }
+    .blueBanner {
+        top: 670px;
+
+    }
+}
+@media screen and (max-width:1000px){
+    .slipAndFallAttorneys {
+        font-size: .2rem;
+    }
+    p {
+        line-height: .5rem;
+    }
+    .menu-1 {
+        font-size: 0.9rem;
+    }
+    .blueBanner {
+        top: 680px;
+
+    }
+}
+@media screen and (max-width:700px){
+    .slipAndFallAttorneys {
+        font-size: .2rem;
+    }
+    p {
+        line-height: .5rem;
+    }
+    .menu-1 {
+        font-size: 0.6rem;
+    }
+    .blueBanner {
+        top: 690px;
+
+    }
+}
+@media screen and (max-width:400px){
+    .site-logo {
+        width: 55%;
+        padding-left: 10px;
+    }
+    #menu-menu-1 {
+        top:95px;
+        font-size: .7rem;
+        width: 87%;
+        margin: 0 auto;
+        left: 30px;
+    }
+    .heroText {
+        font-size: 2rem;
+    }
+    .personalInjuryContainer {
+        top: 659px;
+        padding-bottom: 10px;
+    }
+    .bannerTest {
+        font-size: 1.3rem;
+    }
+    .slipAndFallContainer {
+    margin-bottom: 5px;
+    }
+    .slipAndFallAttorneys {
+        font-size: .2rem;
+        width: 100%;
+    }
+    .slipAndFallImage {
+        width: 100%;
+    }
+    p {
+        line-height: .7rem;    
+    }
+    .injuryBtn {
+        margin-top: 5px;
+        padding: 5px 20px;
+        margin-bottom: 10px;
+    }
+    .menu-1 {
+        font-size: 0.6rem;
+    }
+    .blueBanner {
+        top: 626px;
+        
+    }
+
+    .heroContentContainer2{
+        top: 173%;
+        max-width: 311px;
+    }
+    .page-banner__bg-image2{
+        top: 1312px;
+    }
+    .heroText2 {
+        font-size: 2rem;
+    }
+    .site-logo2 {
+        width: 52%;
+    }
+    .menu-2 {
+        font-size: .7rem;
+    }
+    footer {
+        height: 118px;
+    }
 }
