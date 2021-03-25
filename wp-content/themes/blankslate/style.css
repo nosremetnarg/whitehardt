@@ -263,7 +263,7 @@ justify-content: center;
         font-size: .2rem;
     }
     p {
-        line-height: .5rem;
+        line-height: 1rem;
     }
     .menu-1 {
         font-size: 0.9rem;
@@ -278,7 +278,7 @@ justify-content: center;
         font-size: .2rem;
     }
     p {
-        line-height: .5rem;
+        line-height: .7rem;
     }
     .menu-1 {
         font-size: 0.9rem;
@@ -368,6 +368,7 @@ justify-content: center;
         font-size: .7rem;
     }
     footer {
-        height: 118px;
+        height: 130px;
+        padding: 30px 20px 58px 20px!important;
     }
 }
