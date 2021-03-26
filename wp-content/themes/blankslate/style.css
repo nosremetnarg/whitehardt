@@ -27,6 +27,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin: 0 auto;
 }
 #container {
+    position:relative;
     width: 100%;
     margin: 0 auto;
 }
@@ -35,7 +36,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 30px 20px 30px 20px;
 }
 
-
+#sidebar, .post {
+    display: none;
+}
 #site-title a {display: inline-block; font-size:0px; color: #000; padding: 20px 0 20px 0;}
 #site-title a:hover{color: red;}
 #site-description, #search {
@@ -53,7 +56,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     position: absolute;
     top: 38px;
     right: 60px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: sans-serif;
     color: black;
     text-decoration: none;
@@ -71,6 +74,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     bottom: 0;
     left: 0;
     right: 0;
+    height: 900px
 }
 
 .site-logo {
@@ -90,7 +94,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .heroContentContainer {
     max-width: 350px;
     position: absolute;
-    top: 40%;
+    top: 12%;
     left: 10%;
 }
 .colorOverlay {
@@ -98,7 +102,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     height: 87%;
     background: #000;
     opacity: .3;
-    position:absolute;
+    position:relative;
 }
 
 .heroText {
@@ -130,7 +134,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .blueBanner {
     background-color: #0068B0;
     position: relative;
-    top: 875px;
+    top: 900px;
     height: 110px;
     display:flex;
     align-items: center;
@@ -146,7 +150,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .personalInjuryContainer {
     position: relative;
-    top: 895px;
+    top: 950px;
     height: 300px;
     color: black;
 }
@@ -198,30 +202,32 @@ p {
 
 
 /* section 4  */
-
+.secondHeroContainer {
+    position: relative;
+    top: 1100px;
+    
+}
 .page-banner__bg-image2{
     opacity: 1;
     background-size: cover;
-    position: absolute;
-    top: 1600px;
-    bottom: -1100px;
+    position: relative;
     left: 0;
     right: 0;
     background-position: center bottom;
-
+height: 900px;
 }
 .colorOverlay2 {
-    width: 100%;
-    height: 65%;
+    /* width: 100%;
+    height: 500px;
     background: #000;
     opacity: .3;
-    position:absolute;
-    top:142%;
+    position:relative;
+    top: 100px; */
 }
 .heroContentContainer2 {
     max-width: 350px;
     position: absolute;
-    top: 160%;
+    top: 200px;;
     left: 10%;
 }
 .heroText2 {
@@ -234,8 +240,8 @@ p {
 }
 /* FOOTER */
 footer {
-    position: absolute;
-top: 2200px;
+    position: relative;
+top: 1000px;
 height: 200px;
 background-color: black;
 width: 100%;
@@ -281,19 +287,15 @@ justify-content: center;
 @media screen and (max-width:1500px){
     .slipAndFallAttorneys {
         font-size: .2rem;
-        
     }
     
     p {
         line-height: 1rem;
     }
     .menu-1 {
-        font-size: 0.9rem;
+        font-size: 1.3rem;
     }
-    .blueBanner {
-        top: 870px;
-
-    }
+    
 }
 @media screen and (max-width:1000px){
     .slipAndFallAttorneys {
@@ -303,12 +305,12 @@ justify-content: center;
         line-height: .7rem;
     }
     .menu-1 {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
-    .blueBanner {
-        top: 880px;
+    /* .blueBanner {
+        top: 420px;
 
-    }
+    } */
 }
 @media screen and (max-width:700px){
     .slipAndFallAttorneys {
@@ -318,12 +320,16 @@ justify-content: center;
         line-height: .5rem;
     }
     .menu-1 {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        left: 200px;
     }
-    .blueBanner {
-        top: 890px;
+    .site-logo {
+        width: 35%;
+    }
+    /* .blueBanner {
+        top: 420px;
 
-    }
+    } */
     .slipAndFallAttorneys {
         width: 100%;
     }
@@ -377,10 +383,10 @@ justify-content: center;
     .menu-1 {
         font-size: 0.6rem;
     }
-    .blueBanner {
-        top: 626px;
+    /* .blueBanner {
+        top: 420px;
         
-    }
+    } */
 
     .heroContentContainer2{
         top: 173%;
