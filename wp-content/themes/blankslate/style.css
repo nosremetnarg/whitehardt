@@ -322,9 +322,12 @@ justify-content: center;
     .menu-1 {
         font-size: 0.7rem;
         left: 200px;
+        width: 100px;
+        margin: 0 auto;
     }
     .site-logo {
         width: 35%;
+        padding-left: 0;
     }
     /* .blueBanner {
         top: 420px;
@@ -332,6 +335,9 @@ justify-content: center;
     } */
     .slipAndFallAttorneys {
         width: 100%;
+    }
+    .bannerTest {
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width:400px){
@@ -360,7 +366,7 @@ justify-content: center;
         padding-bottom: 10px;
     }
     .bannerTest {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .slipAndFallContainer {
     margin-bottom: 5px;
