@@ -97,12 +97,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     top: 12%;
     left: 10%;
 }
+.colorOverlayContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 900px
+}
 .colorOverlay {
     width: 100%;
-    height: 87%;
+    height: 70%;
     background: #000;
     opacity: .3;
-    position:relative;
+    position:absolute;
 }
 
 .heroText {
@@ -180,21 +188,24 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 20px;
 }
 .slipAndFallImage {
-    width: 55%;
+    width: 90%;
 }
 .slipAndFallAttorneys {
     width: 50%;
   justify-self: end;
 }
 .slipAndFallTitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: sans-serif;
     margin-bottom: 10px;
 }
+.slipAndFallAttorneys, .slipAndFallImageContainer {
+    width: 70%;
+}
 p {
-    font-size: .5rem;
+    font-size: .8rem;
     font-family: sans-serif;
-    line-height: 1rem;
+    line-height: 1.5rem;
 }
 .injuryBtn {
     margin-top: 20px;
@@ -217,12 +228,12 @@ p {
 height: 900px;
 }
 .colorOverlay2 {
-    /* width: 100%;
-    height: 500px;
+    width: 100%;
+    height: 900px;
     background: #000;
     opacity: .3;
-    position:relative;
-    top: 100px; */
+    position:absolute;
+    top: 0px;
 }
 .heroContentContainer2 {
     max-width: 350px;
@@ -303,6 +314,7 @@ justify-content: center;
     }
     p {
         line-height: .7rem;
+        font-size: .6rem;
     }
     .menu-1 {
         font-size: 1rem;
@@ -317,7 +329,8 @@ justify-content: center;
         font-size: .2rem;
     }
     p {
-        line-height: .5rem;
+        line-height: .7rem;
+        font-size: .5rem;
     }
     .menu-1 {
         font-size: 0.7rem;
@@ -339,6 +352,20 @@ justify-content: center;
     .bannerTest {
         font-size: 1.5rem;
     }
+    .slipAndFallImageContainer {
+        width: 100%;
+    }
+    .slipAndFallImage {
+        width: 100%;
+    }
+    .slipAndFallTitle {
+        font-size: .8rem;
+    }
+    p {
+        line-height: .7rem;   
+        font-size: 7px; 
+        margin-bottom: 5px;
+    }
 }
 @media screen and (max-width:400px){
     .site-logo {
@@ -352,6 +379,9 @@ justify-content: center;
         margin: 0 auto;
         left: 30px;
     }
+    .page-banner__bg-image {
+        height: 400px;
+    }
     .heroText {
         font-size: 2rem;
         width: 80%;
@@ -359,14 +389,27 @@ justify-content: center;
     .colorOverlay {
        
         height: 84%;
-        
     }
+    /* blue banner section  */
+    .blueBanner {
+        top: 350px;
+    } 
+    .bannerTest {
+        font-size: 1.2rem;
+    }
+
+    /* personal injury section */
+
     .personalInjuryContainer {
-        top: 659px;
+        top: 380px;
         padding-bottom: 10px;
     }
-    .bannerTest {
+    .personalInjuryTitleText {
+        font-size: 1.6rem;
+    }
+    .graphicDesignLines {
         font-size: 1rem;
+        margin-bottom: 10px;
     }
     .slipAndFallContainer {
     margin-bottom: 5px;
@@ -375,11 +418,19 @@ justify-content: center;
         font-size: .2rem;
         width: 100%;
     }
+    .slipAndFallTitle {
+        font-size: .8rem;
+    }
+    .slipAndFallImageContainer {
+        width: 100%;
+    }
     .slipAndFallImage {
         width: 100%;
     }
     p {
-        line-height: .7rem;    
+        line-height: .7rem;   
+        font-size: 7px; 
+        margin-bottom: 5px;
     }
     .injuryBtn {
         margin-top: 5px;
@@ -389,10 +440,9 @@ justify-content: center;
     .menu-1 {
         font-size: 0.6rem;
     }
-    /* .blueBanner {
-        top: 420px;
-        
-    } */
+   .secondHeroContainer {
+       top: -900px;
+   }
 
     .heroContentContainer2{
         top: 173%;
@@ -417,8 +467,8 @@ justify-content: center;
         font-size: .7rem;
     }
     footer {
-        top: 1900px;        
+        top: 400px;        
         height: 130px;
-        padding: 30px 20px 58px 20px!important;
+        /* padding: 30px 20px 58px 20px!important; */
     }
 }
