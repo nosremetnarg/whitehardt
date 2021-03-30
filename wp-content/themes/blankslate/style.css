@@ -106,11 +106,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     height: 900px
 }
 .colorOverlay {
-    width: 100%;
+    /* width: 100%;
     height: 70%;
     background: #000;
     opacity: .3;
-    position:absolute;
+    position:absolute; */
 }
 
 .heroText {
@@ -228,12 +228,12 @@ p {
 height: 900px;
 }
 .colorOverlay2 {
-    width: 100%;
+    /* width: 100%;
     height: 900px;
     background: #000;
     opacity: .3;
     position:absolute;
-    top: 0px;
+    top: 0px; */
 }
 .heroContentContainer2 {
     max-width: 350px;
@@ -413,23 +413,28 @@ justify-content: center;
     }
     .slipAndFallContainer {
     margin-bottom: 5px;
+    display: block;
     }
     .slipAndFallAttorneys {
         font-size: .2rem;
         width: 100%;
+    }
+    .slipAndFallAttorneys {
+        padding-bottom: 0;
     }
     .slipAndFallTitle {
         font-size: .8rem;
     }
     .slipAndFallImageContainer {
         width: 100%;
+
     }
     .slipAndFallImage {
         width: 100%;
     }
     p {
-        line-height: .7rem;   
-        font-size: 7px; 
+        line-height: 1rem;   
+        font-size: 11px; 
         margin-bottom: 5px;
     }
     .injuryBtn {
@@ -445,7 +450,7 @@ justify-content: center;
    }
 
     .heroContentContainer2{
-        top: 173%;
+        top: 184%;
         max-width: 311px;
     }
     .colorOverlay2 {
@@ -455,7 +460,7 @@ justify-content: center;
     }
   
     .page-banner__bg-image2{
-        top: 1315px;
+        top: 1550px;
     }
     .heroText2 {
         font-size: 2rem;
@@ -467,7 +472,7 @@ justify-content: center;
         font-size: .7rem;
     }
     footer {
-        top: 400px;        
+        top: 486px;        
         height: 130px;
         /* padding: 30px 20px 58px 20px!important; */
     }
