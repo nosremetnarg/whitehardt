@@ -1,9 +1,6 @@
 <?php get_header(); ?>
 <main id="content">
-    <div class="page-banner__bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(<?php echo get_theme_file_uri('images/CarCrash.jpg')?>);"></div>
-        <div class="coverOverlayContainer">
-            <div class="colorOverlay"></div>
-        </div>      
+    <div class="page-banner__bg-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(<?php echo get_theme_file_uri('images/CarCrash.jpg')?>);"></div>   
 
     <div class="heroContentContainer">
           <h1 class="heroText">Lorem Ipsum Dolor Sit Amet</h1>
@@ -30,7 +27,7 @@
     </div>
     <div class="secondHeroContainer">
     <div class="page-banner__bg-image2" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo get_theme_file_uri('images/powerline.jpg')?>);"></div>
-    <div class="colorOverlay2"></div>  
+    
     <div class="heroContentContainer2">
       
           <h1 class="heroText2">Amet Sit Dolor Ipsum Lorem</h1>
